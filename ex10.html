@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Informações da Pessoa</h1>
+    <p id="resultado"></p>
+
+    <script>
+         let pessoa = {
+      nome: prompt("Digite seu nome:"),
+      idade: Number(prompt("Digite sua idade:")),
+      cidade: prompt("Digite sua cidade:"),
+    }
+
+    document.getElementById("resultado").innerText = 
+      `Nome: ${pessoa.nome} | Idade: ${pessoa.idade} | Cidade: ${pessoa.cidade}`;
+    </script>
+</body>
+</html>
